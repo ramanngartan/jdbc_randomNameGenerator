@@ -4,6 +4,7 @@ A simple Java Command-Line JDBC application that connects to a MySQL database, g
 
 Features
 🔄 Random Professor Generation: Generate random professor records and insert them into a MySQL database.
+
 ⚙️ Customizable: Define the number of records to generate via command-line arguments.
 🗄️ Database Truncation: Truncate existing records before inserting new data.
 📋 Logs: Provides informative logging using SLF4J and Logback.
@@ -64,6 +65,7 @@ JDBC-CMD-Professor-Skeleton/
 │           └── majorPool.txt
 ├── pom.xml
 └── README.md
+
 src/main/java/: Contains the main Java source code.
 src/main/resources/: Contains resource files used for random data generation.
 pom.xml: Maven configuration file.
